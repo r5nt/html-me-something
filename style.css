@@ -43,6 +43,11 @@ h3 {
 
 }
 
+footer {
+    text-align: center;
+    margin: 60px auto 20px auto;
+}
+
 .container {
     width: 1140px;
     margin: 20px auto 0 auto;
@@ -74,20 +79,27 @@ h3 {
 
 .family h3 {
     margin-top: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .family img {
-    height: 300px;
+    height: 250px;
     width: auto;
 }
 
 .family-picture-title {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
 }
 
 .family-text {
-    float: left;
+    display: inline-block;
+    width: 46%;
+    padding-top: 40px;
+    @media (max-width: 620px) {
+        width: 100%;
+    }
 }
 
 .blog {
@@ -113,8 +125,19 @@ h3 {
     margin-bottom: 40px;
 }
 
+.burger-image {
+    height: 275px;
+    width: auto;
+    float: left;
+}
+
+.burger-menu {
+    float: left;
+    margin-left: 30px;
+}
+
 .burgers {
-    padding: 20px 0 20px 0;
+    padding: 50px 0 20px 0;
 }
 
 
