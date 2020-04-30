@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: Helvetica Neue, Arial;
+    font-size: 18px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+main {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 70, 70);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+.page-header {
+
+}
+
+.about-us {
+    margin-bottom: 25px;
+}
+
+.about-us-text {
+    text-align: justify;
+}
+
+.about-us-quote {
+    text-align: center;
+    font-style: italic;
+    margin: 20px auto 0 auto;
+    padding: 0 120px 0 120px;
+}
+
+.family :not(h2) {
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.family h3 {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.family img {
+    height: 300px;
+    width: auto;
+}
+
+.family-picture-title {
+    float: left;
+}
+
+.family-text {
+    float: left;
+}
+
+.blog {
+    width: 25%;
+    float: left;
+}
+
+.blog img {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.blog h3 {
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.blog-posts {
+    margin-bottom: 40px;
+}
+
+.burgers {
+    padding: 20px 0 20px 0;
+}
+
+
