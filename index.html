@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
-    <title>Bob's Burgers</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bob's Burgers</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="page-header">
-            <h1>Bob's Burgers</h1>
-            <h2>Conveniently Located on Ocean Avenue</h2>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="images/BB_Logo.png" alt="Bob's Burgers Logo" class="logo">
+                    <ul class="main-nav">
+                        <li> <a href="#about-us-link">About Us</a> </li>
+                        <li> <a href="#family-link">Family</a> </li>
+                        <li> <a href="#burgers-link">Burgers of the Week</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="page-header">
+                <div class="page-header-text">
+                    <h1>Bob's Burgers</h1>
+                    <h2>Conveniently Located on Ocean Avenue</h2>
+                </div>
+                <div class="header-buttons">
+                    <a class="btn" href="#">Order Online</a>
+                    <a class="btn" href="#">Catering Menu</a>
+                </div>
+            </div>
         </header>
 
         <main>
             <article>
+                <a id="about-us-link"></a>
                 <section class="about-us">
                     <h2>About Us:</h2>
                     <p class="about-us-text">
@@ -31,6 +51,7 @@
                     </p>
                 </section>
 
+                <a id="family-link"></a>
                 <section class="family">
                     <h2>Come "Meat" Our Family!</h2>
                     <section>
@@ -151,18 +172,19 @@
 
         <div class="clearfix"></div>
 
+        <a id="burgers-link"></a>
         <section class="burgers">
             <img class="burger-image" src="images/Burger.png" alt="Cartoon Burger">
             <div class="burger-menu">
                 <h2>Burgers of the Week:</h2>
                 <ul style="line-height: 180%;">
-                    <li>Monday- Gourdon-Hamsey Burger (comes with squash & ham)</li>
-                    <li>Tuesday- Poblano Picasso Burger</li>
-                    <li>Wednesday- Eggers Can't Be Cheesers (with fried egg & cheese)</li>
-                    <li>Thursday- Poutine on the Ritz Burger (comes with poutine fries)</li>
-                    <li>"Fry"day- Beets of Burden Burger (served with too many beets)</li>
-                    <li>Saturday- Curd-fect Strangers Burger (comes with cheese curds)</li>
-                    <li>Sunday- Fig-eta Bout It Burger</li>
+                    <li><b>Monday-</b> Gourdon-Hamsey Burger (comes with squash & ham)</li>
+                    <li><b>Tuesday-</b> Poblano Picasso Burger</li>
+                    <li><b>Wednesday-</b> Eggers Can't Be Cheesers (with fried egg & cheese)</li>
+                    <li><b>Thursday-</b> Poutine on the Ritz Burger (comes with poutine fries)</li>
+                    <li><b><em>"Fry"</em>day-</b> Beets of Burden Burger (served with too many beets)</li>
+                    <li><b>Saturday-</b> Curd-fect Strangers Burger (comes with cheese curds)</li>
+                    <li><b>Sunday-</b> Fig-eta Bout It Burger</li>
                 </ul>
             </div>
         </section>
